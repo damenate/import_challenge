@@ -71,4 +71,5 @@ class SubmissionsController < ApplicationController
     def submission_params
       params.require(:submission).permit(:timestamp, :name, :gist_address)
     end
-end
+
+  end
