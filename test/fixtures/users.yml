@@ -1,11 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  timestamp: 
+  email: MyString
   name: MyString
-  gist_address: MyString
+  password_digest: MyString
 
 two:
-  timestamp: 
+  email: MyString
   name: MyString
-  gist_address: MyString
+  password_digest: MyString
