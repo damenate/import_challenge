@@ -1,4 +1,5 @@
 class User < ActiveRecord::Base
+has_many :pictutes
 has_secure_password
 
 validates :name, presence: {message: "First name must be present"}
