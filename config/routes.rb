@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'pictures/create'
+
+  get 'pictures/destroy'
+
   get 'sessions/create'
 
   get 'sessions/destroy'
