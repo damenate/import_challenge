@@ -1,5 +1,3 @@
 ## Import App
 
-This app wants to import excel or csv files and then have them in a viewable form in a rails application.
-
-This app is going to be a playground for importing files and using AWS and paperclip.
+Currently practicing the use of gem paperclip to import photos. Will later want to try and import excel spreadsheets. Would like to try and create my own gem that creates database tables based on excel columns and rows. 
