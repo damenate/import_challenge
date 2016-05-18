@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get 'sessions/create'
 
   get 'sessions/destroy'
+  root :to => "home#index"
 
   resources :users
   # The priority is based upon order of creation: first created -> highest priority.
