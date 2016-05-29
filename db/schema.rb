@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160515161322) do
+ActiveRecord::Schema.define(version: 20160529181121) do
 
   create_table "pictures", force: :cascade do |t|
     t.string   "uploaded_file_file_name"
@@ -21,6 +21,14 @@ ActiveRecord::Schema.define(version: 20160515161322) do
     t.integer  "user_id"
     t.datetime "created_at",                 null: false
     t.datetime "updated_at",                 null: false
+  end
+
+  create_table "users", force: :cascade do |t|
+    t.string   "provider"
+    t.string   "uid"
+    t.string   "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
 end
